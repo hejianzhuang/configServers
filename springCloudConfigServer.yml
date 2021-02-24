@@ -5,5 +5,10 @@ spring:
       port: 8500
 server:
   port: 7878
-  
+
+logging:
+  level:
+    com.netflix.discovery: 'OFF'
+    org.springframework.cloud: 'DEBUG'
+    
 name: zhangsan
