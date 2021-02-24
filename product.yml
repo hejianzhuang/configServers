@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: springCloudProduct
+  cloud:
+    consul:
+      host: 127.0.0.1
+      port: 8500
+server:
+  port: 9998
